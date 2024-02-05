@@ -16,7 +16,7 @@ struct ContentView: View {
                 HStack {
                     Spacer()
                     Text("Standby...")
-                        .foregroundColor(.secondary)
+                        .foregroundColor(.gray).opacity(0.7)
                         .font(.largeTitle)
                         .padding()
                 }
